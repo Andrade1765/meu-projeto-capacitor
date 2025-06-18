@@ -1,6 +1,27 @@
 <script>
-    import { page } from  '$lib/dicionario.js';
     import { dicionario } from '$lib/dicionario';
-   let termo = $state();
-   </script>
-   <h2>{page.params.palavra}</h2>
+</script>
+<div>Palavra do dia:
+    <text>xxx</text>
+</div> 
+<form>
+    <input type="text" placeholder="Oque você busca?" />
+    <button type="submit">Buscar</button>
+</form>
+
+<div>
+Palavra do dicionário
+</div>
+
+<style>
+
+    
+    div{
+        color: white;
+        background-color: black;
+    }
+
+    text{
+        color: red;
+    }
+</style>
